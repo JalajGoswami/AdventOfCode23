@@ -22,6 +22,6 @@ func TestSumFeasibleGameIds(t *testing.T) {
 	}
 	result = SumFeasibleGameIds(string(data))
 	if result != 2545 {
-		t.Fatalf("Test SumFeasibleGameIds() failed expected %d got %d", 55488, result)
+		t.Fatalf("Test SumFeasibleGameIds() failed expected %d got %d", 2545, result)
 	}
 }
